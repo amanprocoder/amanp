@@ -1,0 +1,294 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.bg{
+    width: 50%;
+    background-color: rgba(2, 0, 0, 0.2); 
+    position: fixed;
+    
+    color: white;
+    }
+
+ 
+.icon a{
+    text-decoration: none;
+  margin-top: 10px;
+    color: white;
+    margin-left: 70px;
+    z-index: 1;
+
+}
+
+.icon a:hover{
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:transparent;
+     border-radius: 10px solid black;
+     
+    box-shadow: 2px 2px 2px 2px white ;}
+#bdd{
+    color: white;
+}
+#first{
+    background-image: url('c.jpg'); 
+    background-size: cover;   
+    height: 600px;
+    width: 1260px;
+    position: absolute;
+    top:0%;
+    z-index: -1;
+}
+#box{
+  position: relative;
+  top: 35%;
+  left: 10%;
+  background-color: rgba(2, 0, 0, 0.1); 
+  width: 80%;
+  color: white;
+  height: 30%;}
+    
+  
+   
+
+
+
+#textbg h2 {
+    position: relative;
+    top: 22px;
+    color: white;
+   
+}
+#box h2{
+   z-index: 1;
+   font-size: 30px;
+}
+#texta{
+    padding-left: 150px;
+}
+.text {
+    font-size: 50px;
+padding-left: 40px;
+color: white;
+padding-top: 1%;
+}
+@keyframes fillText {
+    0% {
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      clip-path: inset(0 100% 0 0);
+    }
+    100% {
+      background-clip: text;
+      -webkit-text-fill-color:white; /* Change the color as needed */
+      clip-path: inset(0 0 0 0);
+    }
+  }
+  
+  .text span {
+    font-weight: bold; /* Adjust the font weight as needed */
+    -webkit-text-stroke: 2px transparent; /* Adjust the stroke width as needed */
+    animation: fillText 2s linear infinite;
+  }
+  
+  .animated-text span:nth-child(2) {
+    animation-delay: 1s; /* Delay the animation for the second letter */
+  }
+  
+  .animated-text span:nth-child(3) {
+    animation-delay: 2s; /* Delay the animation for the third letter */
+  }
+  
+  .animated-text span:nth-child(4) {
+    animation-delay: 3s; /* Delay the animation for the fourth letter */
+  }
+  
+  .animated-text span:nth-child(5) {
+    animation-delay: 4s; /* Delay the animation for the fifth letter */
+  }
+  
+  .animated-text span:nth-child(6) {
+    animation-delay: 5s; /* Delay the animation for the sixth letter */
+  }
+  
+  .animated-text span:nth-child(7) {
+    animation-delay: 6s; /* Delay the animation for the seventh letter */
+  }
+  
+  .animated-text span:nth-child(8) {
+    animation-delay: 7s; /* Delay the animation for the eighth letter */
+  }
+  
+  .animated-text span:nth-child(9) {
+    animation-delay: 8s; /* Delay the animation for the ninth letter */
+  }
+  
+  .animated-text span:nth-child(10) {
+    animation-delay: 9s; /* Delay the animation for the tenth letter */
+  }
+  
+  
+
+
+#second{
+
+    background-color: darkslategray;
+    
+    position: relative;
+    top: 600px;
+    height: 600px;
+    width: 1260px;
+    z-index: -1;
+  
+   }
+
+#stext{
+    width: 600px;
+    padding-top: 30px;    
+    color: transparent;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    -webkit-text-stroke: 2px ;
+    -webkit-text-stroke-color: white;
+  
+
+}
+
+@keyframes moveCharacter {
+    0% {
+        transform: translateX(0);
+      }
+      50% {
+        transform: translateX(780px); /* Adjust the distance as needed */
+      }
+      100% {
+        transform: translateX(0);
+      }
+  }
+  
+  #stext p {
+    width: 77%;
+    animation: moveCharacter 5s linear infinite;
+  }
+  
+#image{
+    width: 1250px;
+    height: 750px;
+}
+.carousel-inner img{
+    width: 350px;
+    height: 450px;
+}
+
+#third{
+    z-index: -1;
+    background-image: url('b.jpg');
+    background-size: cover;   
+
+
+
+    
+   position: absolute;
+    top: 1200px;
+    height: 600px;
+    width: 1260px;
+
+  
+   }
+  
+
+   
+
+
+
+   
+   #maindetail{
+    position: relative;
+    top: 10%;
+    left: 5%;
+    color: white;
+    width: 600px;
+   
+
+
+   }
+   #maindetail p{
+    padding-left: 20px;
+
+   }
+   #hobby{
+    position: relative;
+    top: 20%;
+    left: 5%;
+    width: 600px;
+    color: white;
+
+   }
+   
+
+
+   #imagea{
+    position: absolute;
+    top: 18%;
+    left: 47%;
+    width: 50%;
+    height: 20%;
+   }
+  #imga img{
+    width:60%;
+    height: 60%;
+   }
+   #forth{
+   background-color: black;
+
+
+    
+    position: absolute;
+     top: 1800px;
+     height: 300px;
+     width: 1260px;
+    z-index: -1;}
+    #contect{
+      padding-top: 10px;
+    
+    color: white;
+    }
+    #contect h1{
+      font-size: 40px;
+      padding-left: 480px;
+    }
+    #contect  p  {
+      padding-left: 490px;
+      
+      padding-top: 5px;
+
+     
+    }
+
+  
+  
+    #aaa{  
+      margin-left: 500px;
+  }
+  #aaa a{
+    padding-left: 20px;
+
+  }
+#foot{
+  background-color: gray;
+  position: absolute;
+ top: 2100px;
+ width: 1260px;
+ height: 50px;
+
+}
+#foot p{
+  padding-left: 500px;
+  padding-top: 14px;
+ 
+  color: white;
+}
+#a{
+  padding-left: 200px;
+}
